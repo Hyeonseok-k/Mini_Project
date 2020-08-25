@@ -1,0 +1,171 @@
+
+body {
+    margin: 0;
+}
+
+input::placeholder {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+header {
+    color: white;
+    min-height: 30px;
+    width: auto;
+    font-size: 20px;
+    background-color: black;
+    font-family: 'Alata', sans-serif;
+    padding: 30px;
+    display: flexbox;
+}
+
+.header_left {
+    float: left;
+    color: white;
+    display: inline-block;
+}
+
+.header_left > a {
+    text-decoration: none;
+}
+
+.admin {
+    color: white;
+    display: inline-block;
+    float: right;
+}
+
+.admin > a {
+    text-decoration: none;
+}
+
+main {
+    min-height: 30px;
+}
+
+
+
+.mainbox {    
+    width: auto;
+    height: 60%;
+    padding-left: 13%;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.main_title {
+    width: 17%;
+    height: 230px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Alata', sans-serif;
+    background-color: rgba(36, 35, 35, 0.9);
+    line-height: 1.1;
+    color: white;
+    margin: 10px;
+    float: left;
+    padding: 60px;
+    padding-top: 100px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 5px 5px;
+    transition: all 2s;
+}
+
+.main_title > i {
+    font-size: 50px;    
+}
+
+.select_box {
+    width: 500px;
+    margin: 10px;
+    display: inline-block;
+    float: left;
+}
+
+
+.input_number {
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    height: 188px;
+    font-family: 'Alata', sans-serif;
+    float: left;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 5px 5px;
+    transition:all 1s;
+}
+
+.input_number:focus {
+    color: white;
+    outline: none;
+    background-color: rgba(36, 35, 35, 0.9);
+}
+
+
+
+.main_submit:hover {
+    color: black;
+    background-color: white;
+}
+
+.main_submit {
+    display: inline-block;
+    margin-left: 20px;
+    width: 25%;
+    height: 390px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Alata', sans-serif;
+    background-color: rgba(36, 35, 35, 0.9);
+    color: white;
+    margin: 10px;
+    padding: 80px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 5px 5px;
+    transition: background-color 2s;
+    transition-delay: 1.5s;
+
+}
+
+footer {
+    height: 90px;
+    width: auto;
+    font-size: 20px;
+    background-color: black;
+    font-family: 'Alata', sans-serif;
+    display: block;
+}
+
+
+.footer_left {
+    font-family: 'Alata', sans-serif;
+    color: white;
+    display: inline-block;
+    padding: 30px;
+    float: left;
+}
+
+.footer_right {
+    font-family: 'Alata', sans-serif;
+    color: white;
+    padding: 30px;
+    display: inline-block;
+    float: right;
+}
+
+
+
